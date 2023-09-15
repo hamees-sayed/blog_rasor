@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@400;500;600;700&display=swap');
+
+body {
+   font-family: 'Faustina', sans-serif;
+}
+
+// nav bar
+.nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0;
+   justify-content: flex-start;
+   margin: 0.5rem 2rem;
+}
+
+.nav--logo_icon {
+   width: 5.2em;
+}
+
+.nav--header--text {
+   display: flex;
+   align-items: center;
+   margin: 0 0.4rem;
+   flex-direction: column;
+}
+
+.heading, .subheading {
+   margin: 0;
+   line-height: 2.1rem;
+}
+
+.heading {
+   font-weight: 700;
+   font-size: 2.25em;
+   letter-spacing: 2px;
+}
+
+.subheading {
+   font-weight: 400;
+   font-size: 1.25em;
+   color: #575757;
+   align-self: start;
+}
+
+
+// RECENT BLOGS SECTION
+
+.hero--section {
+   background-color: #851815;
+}
+
+.hero-text-des {
+   display: flex;
+   align-items: center;
+}
+
+.hor-line {
+   display: flex;
+   height: 7px;
+   background-color: white;
+   width: 100%;
+}
+
+.hero-text {
+   width: 28%;
+   text-align: center; 
+   line-height: 1em;
+   color: white;
+} 
+
+.blog-card {
+   display: flex;
+   padding: 5px;
+   flex-direction: column;
+   align-items: center;
+   width: 368px;
+   height: 388px;
+   background-color: white;
+   border: 1px solid #AEAEAE;
+   border-radius: 8px;
+   margin: 1rem 0 2rem 0;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.blog-banner {
+   width: 357px;
+   border-radius: 8px;
+   margin-bottom: 0.125rem;
+}
+
+.blog-details {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.blog-text {
+   margin: 0;
+   text-align: left;
+   font-weight: 600;
+   margin: 0.25rem;
+}
+
+.title {
+   color: #851815;
+}
+
+.content {
+   color: black;
+}
+
+.date {
+   color: #484848;
+   font-weight: 500;
+}
+
+.cards-list {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 3.5rem;
+   overflow-x: auto;
+   justify-content: center;
+}
+
+// BLOG CARD
+
+.blog-text-des {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.blog-hor-line-l {
+   display: flex;
+   height: 7px;
+   background-color: #851815;
+   width: 15%;
+}
+
+.blog-hor-line-r {
+   display: flex;
+   height: 7px;
+   background-color: #851815;
+   width: 115%;
+}
+
+.blog-list-text {
+   width: 18%;
+   text-align: center; 
+   line-height: 1em;
+   color: black;
+} 
+
+// BLOG LIST
+
+.blog--list {
+   display: flex;
+   width: 80rem;
+   gap: 3rem;
+   margin: 0 8%;
+   margin-top: 1.5rem;
+}
+
+.blog--detail {
+   display: flex;
+   flex-direction: column;
+}
+
+.blog--list img {
+   width: 357px;
+}
+
+.blog--title {
+   color: #851815;
+   font-size: 2.5rem;
+   font-weight: 600;
+   text-align: left;
+   margin: 0
+}
+
+.blog--desc {
+   color: #404040;
+   font-size: 1.7rem;
+   text-align: left;
+   margin: 0
+}
+
+// BLOG PAGE
+
+.complete--blog {
+   display: flex;
+   flex-direction: column;
+   float: right;
+}
+
+.blog--page {
+   background-color: #851815;
+   display: flex;
+   width: 80rem;
+   gap: 3rem;
+   margin-top: 1.5rem;
+   padding: 7rem 3rem 3rem 3rem;
+   float:right;
+   position: relative;
+}
+
+.blog-heading {
+   position: absolute;
+   color: white;
+   top: 0;
+   font-weight: 600;
+   font-size: 2.5rem;
+   margin-top: 10px;
+}
+
+.blog--page--detail {
+   display: flex;
+   flex-direction: column;
+}
+
+.blog--page img {
+   width: 357px;
+}
+
+.blog--page--title {
+   color: #EFB03F;
+   font-size: 2.5rem;
+   font-weight: 600;
+   text-align: left;
+   margin: 0
+}
+
+.blog--page--desc {
+   color: #FFFFFF;
+   font-size: 1.7rem;
+   text-align: left;
+   margin: 0
+}
+
+.author--profile {
+   display: flex;
+   align-items: center;
+}
+
+.author--profile img {
+   width: 3rem;
+}
+
+.auth-name {
+   margin: 0;
+   font-size: 1rem;
+   color: white;
+   font-weight: 400
+}
+
+.auth-desc {
+   margin: 0;
+   align-self: flex-start;
+   color: #CDCDCD;
+   font-weight: 400;
+   font-size: 0.7rem;
+}
+
+.blog--content {
+   font-weight: 400;
+   font-size: 1.5rem;
+   margin-top: 1.5rem;
+   line-height: 0.2rem;
+}
+
