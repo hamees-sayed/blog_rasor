@@ -18,7 +18,7 @@ const Blogs = () => {
                         <p class="blog--page--desc">Lorem ipsum dolor sit amet consectetur. Lobortis arcu interdum consectetur magna nec volutpat mattis tellus suspendisse. Libero cum nec netus nec sit eget fames.</p>
                         <div class="author--profile">
                             <img class="auth--pfp" src={logo} alt="logo" />
-                            <div CLASS="nav--header--text">
+                            <div class="author--detail--text">
                                 <h2 class="auth-name">Author Name</h2>
                                 <p class="auth-desc">Lorem Ipsum</p>  
                             </div>  
